@@ -5,6 +5,11 @@ from datetime import datetime, timedelta, timezone
 
 CACHE_PATH = Path("/Users/katewhite/Library/Application Support/Granola/cache-v3.json")
 
+# Configuration - Add your identifying information here
+MY_EMAIL = "kate@yourcompany.com"  # Replace with your actual email
+MY_NAME = "Kate White"  # Replace with your actual name
+MY_USER_ID = "19b41bfc-e113-44f4-8541-49a63b0aadcf"  # Your actual user ID (the one from meetings you were on)
+
 def load_cache():
     if not CACHE_PATH.exists():
         raise FileNotFoundError("cache-v3.json not found in project directory")
@@ -17,15 +22,139 @@ def load_cache():
 
         return top
 
+def detect_my_user_id():
+    """Try to automatically detect your user ID from the cache"""
+    global MY_USER_ID
+    if MY_USER_ID:
+        return MY_USER_ID
+    
+    try:
+        cache_data = load_cache()
+        state = cache_data.get("cache", {}).get("state", {})
+        
+        # Look for user information in various places
+        users = state.get("users", {})
+        current_user = state.get("currentUser", {})
+        
+        # Try to find your user ID by email or name
+        if current_user and isinstance(current_user, dict):
+            user_id = current_user.get("id") or current_user.get("userId")
+            if user_id:
+                MY_USER_ID = str(user_id)
+                print(f"🔍 Detected user ID from currentUser: {MY_USER_ID}")
+                return MY_USER_ID
+        
+        # Search through users by email/name
+        for user_id, user_data in users.items():
+            if isinstance(user_data, dict):
+                email = user_data.get("email", "").lower()
+                name = user_data.get("name", "")
+                display_name = user_data.get("displayName", "")
+                
+                if (MY_EMAIL and MY_EMAIL.lower() == email) or \
+                   (MY_NAME and (MY_NAME.lower() in name.lower() or MY_NAME.lower() in display_name.lower())):
+                    MY_USER_ID = str(user_id)
+                    print(f"🔍 Detected user ID by matching email/name: {MY_USER_ID}")
+                    return MY_USER_ID
+        
+        print("⚠️ Could not automatically detect user ID")
+        return None
+        
+    except Exception as e:
+        print(f"⚠️ Error detecting user ID: {e}")
+        return None
+
+def is_my_document(doc_id, doc, state):
+    """
+    Determine if a document belongs to the current user
+    Updated with better logic based on Granola's actual data structure
+    """
+    if not isinstance(doc, dict):
+        return False
+    
+    # Strategy 1: Check user_id field (most reliable)
+    user_id = doc.get("user_id")
+    if user_id:
+        if MY_USER_ID and str(user_id) == MY_USER_ID:
+            print(f"  ✅ Doc {doc_id}: Owned by me (user_id: {user_id})")
+            return True
+        else:
+            print(f"  ❌ Doc {doc_id}: Owned by someone else (user_id: {user_id}, my_id: {MY_USER_ID})")
+            return False
+    
+    # Strategy 2: Check if document is in workspace (usually team documents)
+    workspace_id = doc.get("workspace_id")
+    if workspace_id:
+        print(f"  ❌ Doc {doc_id}: In workspace (workspace_id: {workspace_id})")
+        return False
+    
+    # Strategy 3: Check visibility and public flags
+    visibility = doc.get("visibility")
+    is_public = doc.get("public", False)
+    
+    if is_public or visibility == "public":
+        print(f"  ❌ Doc {doc_id}: Public document (public: {is_public}, visibility: {visibility})")
+        return False
+    
+    # Strategy 4: Check number of participants - many participants usually means team meeting
+    participants = doc.get("people", [])
+    if isinstance(participants, list) and len(participants) > 4:
+        print(f"  ❌ Doc {doc_id}: Too many participants ({len(participants)}) - likely team meeting")
+        return False
+    
+    # Strategy 5: Check title patterns for team meetings
+    title = doc.get("title", "").lower()
+    team_patterns = [
+        'daily standup', 'standup', 'sprint', 'retrospective', 'planning', 
+        'all hands', 'team meeting', 'scrum', 'demo', 'review meeting'
+    ]
+    
+    if any(pattern in title for pattern in team_patterns):
+        print(f"  ❌ Doc {doc_id}: Team meeting pattern in title: '{doc.get('title', '')}'")
+        return False
+    
+    # Strategy 6: Check for client/external meeting patterns
+    client_patterns = [
+        'intelligems &', '& intelligems', '<>', 'shopify split testing',
+        'demo call', 'intro call', 'discovery call'
+    ]
+    
+    if any(pattern in title for pattern in client_patterns):
+        print(f"  ❌ Doc {doc_id}: Client/external meeting pattern: '{doc.get('title', '')}'")
+        return False
+    
+    # Strategy 7: Look for personal meeting patterns
+    personal_patterns = [
+        '1:1', 'one-on-one', 'personal', 'career', 'feedback',
+        'check-in', 'catch up', 'sync', '/ kate', 'kate /'
+    ]
+    
+    if any(pattern in title for pattern in personal_patterns):
+        print(f"  ✅ Doc {doc_id}: Personal meeting pattern: '{doc.get('title', '')}'")
+        return True
+    
+    # Strategy 8: Default behavior - if we can't determine and no user_id, be more restrictive
+    if not user_id:
+        print(f"  ❌ Doc {doc_id}: No user_id and can't determine ownership - excluding for safety")
+        return False
+    
+    # If we get here, include it (shouldn't happen often with user_id check)
+    print(f"  🤷 Doc {doc_id}: Cannot determine ownership, defaulting to include")
+    return True
+
 def get_recent_meetings(limit=10):
     state = load_cache().get("cache", {}).get("state", {})
     documents = state.get("documents", {})
 
-    print(f"DEBUG: Found {len(documents)} documents")
+    print(f"DEBUG: Found {len(documents)} total documents")
 
     items = []
 
     for i, (doc_id, doc) in enumerate(documents.items()):
+        # Filter out documents that aren't mine
+        if not is_my_document(doc_id, doc, state):
+            continue
+            
         created = doc.get("created_at")
         title = doc.get("title", "")
         print(f"[{i}] ID: {doc_id}")
@@ -46,7 +175,7 @@ def get_recent_meetings(limit=10):
         except Exception as e:
             print(f"  ⚠️ Failed to parse timestamp: {e}")
 
-    print(f"✅ Parsed {len(items)} documents with timestamps")
+    print(f"✅ Parsed {len(items)} personal documents with timestamps")
     sorted_items = sorted(items, key=lambda x: x["start_time"], reverse=True)
     return sorted_items[:limit]
 
@@ -237,6 +366,7 @@ def get_last_7_days_content(days_back=7):
     Get all documents from the last N days with their full content (transcript + summary).
     Now includes AI-generated content from panels as fallback.
     Returns a structured format that's AI-friendly for summarization.
+    UPDATED: Now filters to only include personal documents.
     """
     cache_data = load_cache()
     state = cache_data.get("cache", {}).get("state", {})
@@ -252,8 +382,14 @@ def get_last_7_days_content(days_back=7):
     cutoff = datetime.now(timezone.utc) - timedelta(days=days_back)
     
     recent_docs = []
+    filtered_count = 0
     
     for doc_id, doc in documents.items():
+        # FILTER: Only include documents that belong to me
+        if not is_my_document(doc_id, doc, state):
+            filtered_count += 1
+            continue
+            
         created = doc.get("created_at")
         if not created:
             continue
@@ -268,7 +404,7 @@ def get_last_7_days_content(days_back=7):
                 cutoff = cutoff.replace(tzinfo=None)
             
             if created_dt > cutoff:
-                print(f"\n📄 Processing recent document: {doc_id}")
+                print(f"\n📄 Processing recent personal document: {doc_id}")
                 
                 # Get transcript text - transcripts are lists
                 transcript_text = ""
@@ -345,7 +481,8 @@ def get_last_7_days_content(days_back=7):
     # Sort by creation date (most recent first)
     recent_docs.sort(key=lambda x: x["created_at"], reverse=True)
     
-    print(f"\n✅ Returning {len(recent_docs)} recent documents")
+    print(f"\n✅ Filtered out {filtered_count} non-personal documents")
+    print(f"✅ Returning {len(recent_docs)} personal documents from last {days_back} days")
     
     # Final validation - check what we're actually returning
     for doc in recent_docs:
@@ -355,5 +492,6 @@ def get_last_7_days_content(days_back=7):
         "period": f"Last {days_back} days",
         "cutoff_date": cutoff.isoformat(),
         "total_documents": len(recent_docs),
+        "filtered_documents": filtered_count,
         "documents": recent_docs
     }

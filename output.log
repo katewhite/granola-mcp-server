@@ -1412,3 +1412,270 @@ Final check - 217e9636-ea9b-4bf9-b7cf-65ccfe7780e4: enhanced_notes length = 2010
 Final check - 4f7244ef-d5f0-42de-a6ca-a7902ed12863: enhanced_notes length = 4465
 🔍 Processing 21 documents (no filtering)
 INFO:     54.80.144.23:0 - "GET /zapier-simple HTTP/1.1" 200 OK
+🔍 Total documents in cache: 97
+🔍 Total transcripts in cache: 16
+🔍 Total document panels in cache: 95
+  ❌ Doc caa9826e-7277-4fd5-9a26-803e36edfb28: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc 874fb8e4-7ca7-493a-89e2-b75c55c5fe19: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc fa205782-9219-48f6-9066-f11d0a637b6d: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc 75a97fc3-1d60-4843-94ce-b4eaf9d8c448: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc 5e168a69-f71d-41ce-b554-1f3ae0016520: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc 6fff4d3e-7e38-440d-9632-3cc62c202ddc: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc f2de0e82-c067-4001-b255-1e5e8c4b2104: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc 9f907624-2515-4e6e-9e94-0a7c54c8aad1: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc 686afad9-d089-4cac-a9ad-17063b552bc4: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc fe5a5479-222b-4adf-95ea-7cfa3aacb2e3: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc 9c422dd6-081b-4662-ba00-7b9a7cbb962d: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc b0107da3-13a6-4e58-b6ac-e71a2cd75e4d: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc f244f6d8-b770-459a-b440-2c9543d731df: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc f452526c-77ca-4a6d-ac7a-e98e0f4bc34f: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc 1427f227-ac41-4271-8a38-95fc79cfc28d: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc 52336210-cc8f-4149-abcf-193489a60532: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc 1bfc5d6d-f431-42e4-a8f7-bebcfe876947: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc 52c01e46-b49f-414a-9b2c-d6207cc9c7d2: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc 10220f7e-1032-4f87-bda6-6bb179ee6cf4: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc 594b4e6c-6013-443b-bd13-a0b56678156b: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc 83d4dfbc-0e41-405d-a191-7206314699f2: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc e2bb95f5-cb34-4ac3-95e5-916a9fe59b54: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc 1ee6d676-1aca-43dd-a229-d2fc89d28ba0: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc b2ef0e8d-0089-4a4e-b961-0c95d01a1a84: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc 307309dc-f680-45cd-96d1-3b2fb3511f90: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc 672e392d-0b72-49e8-9e27-3a01e95a9989: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc de4cb5a4-a9e1-40aa-92dc-01f600fa447d: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc bc0a8e9b-4d16-4d0c-98e6-e3ab02b092d0: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc 08a6fbc0-f058-41de-97f1-808bd17ef540: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc 2bd89623-8145-4b5f-b5f3-5411219fcf5c: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc e19609c6-feda-4541-8bf9-9f1ebb246705: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc 2a94aca4-cfb7-45ab-a202-7ca4866bfc35: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc 26b18130-6b11-4eb6-aa88-785f778c64a9: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc b679b183-4ae2-4d29-a196-49f712dedbf6: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc 717bc727-cc50-4f70-880c-1e65defe426f: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc 803c7ad7-cfc6-4334-804c-4f5b27c172f9: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc 10c4b48c-aa74-43e0-b730-eb0798ffffa3: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc a957c051-7009-4249-a667-38ce8ce24fc7: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc 65f09853-ce0d-4851-947f-c88455fe3028: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc f5470fe3-e1fc-4136-8ea0-412a1606895a: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc 149adee7-1711-4a53-9f68-1d4c013b1f00: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc deeef4b5-dd3a-4e41-8ee8-680300c20533: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc b6df6d92-7941-4feb-8bcc-ec3c11e7a8d8: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc 09cddb41-b5d2-4a88-8923-996e3ca67732: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc 5c36c9b3-81e0-4ff7-b350-e579abaec1ae: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc 8fa469fd-d0fd-4d0a-8598-4a30931be2dc: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc adcdffb6-9102-41d6-b5d6-21128184febe: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc 07920ba9-4ef3-4b41-8a80-93875025e49c: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc f53b5f7a-812f-4224-a267-f22d74160a2b: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc a5e66cdb-eb69-402a-bb55-2e97b6152564: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc 1687200c-94a6-44b3-802a-616acfb079dc: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc 4244aa20-fcdc-42c5-be73-805485b4f697: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc 818d13da-b26f-48aa-b8e9-500f021b8835: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc 1c53c2dd-beb7-4b96-9dd0-b6a78b0e4bb8: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc 6020218c-ea1f-43a0-85d1-b51614a81398: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc 0b2258d1-28e0-4890-a605-b37edc701133: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc e0b716e9-7412-4523-8b7d-8693830f0e85: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc 9889a1ed-9bbc-452b-9f17-838e95a839c1: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc 996be237-7c21-41a7-8ced-50d01f9debeb: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc fb48c7cd-d261-40c7-a533-8c2b52820f81: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc 116486ea-ac53-4a8c-b73a-9ceb05529640: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc 8221b087-ca38-42d5-949b-2348a1a1a48d: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc 6599313d-e873-491e-850a-272595800380: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc 36480a9a-efa2-456c-ac88-45153ccd2ec7: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc 4f7244ef-d5f0-42de-a6ca-a7902ed12863: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc 217e9636-ea9b-4bf9-b7cf-65ccfe7780e4: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc a0320c25-3ed6-40b0-a13f-e5d8a549068c: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc f688f536-eeb8-4a9c-b901-3b53c3d7de3c: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc ed713407-ee8d-40c7-add1-1201b9b555b0: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc 18f89118-9e58-46f8-b469-9dcdc56b49ab: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc 773b93ab-c295-42ce-be95-75d9b3f5387c: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc 68743b4a-803e-41f0-b696-52cd08104437: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc d00854b0-94be-4105-9203-99f6e9cfbc88: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+
+📄 Processing recent personal document: d00854b0-94be-4105-9203-99f6e9cfbc88
+  ⚠️ No transcript found for d00854b0-94be-4105-9203-99f6e9cfbc88
+  ✅ Doc d00854b0-94be-4105-9203-99f6e9cfbc88: Using AI-generated content only (length: 1941)
+  📋 Enhanced notes length: 1941
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: Current checkout project updates Angela needs to sync on competitor analysis and next steps Kate put...
+  ✅ Doc 491eccd8-1d89-4473-97bf-fec47823fbdb: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+
+📄 Processing recent personal document: 491eccd8-1d89-4473-97bf-fec47823fbdb
+  ⚠️ No transcript found for 491eccd8-1d89-4473-97bf-fec47823fbdb
+  ✅ Doc 491eccd8-1d89-4473-97bf-fec47823fbdb: Found manual notes_markdown (length: 720)
+  ✅ Doc 491eccd8-1d89-4473-97bf-fec47823fbdb: Combined manual notes + AI content (total length: 3205)
+  📋 Enhanced notes length: 3205
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: - Checkout blocks differentiation
+  - Waited on Shopify for too long on this one because they said t...
+  ✅ Doc d1fabb37-5212-4cbf-a581-a0da9ebc8cb0: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+
+📄 Processing recent personal document: d1fabb37-5212-4cbf-a581-a0da9ebc8cb0
+  ⚠️ No transcript found for d1fabb37-5212-4cbf-a581-a0da9ebc8cb0
+  ✅ Doc d1fabb37-5212-4cbf-a581-a0da9ebc8cb0: Using AI-generated content only (length: 1907)
+  📋 Enhanced notes length: 1907
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: Free shipping offer default issue Partners team identified major problem with current default settin...
+  ❌ Doc e9d229ea-9c2b-404c-b0ed-d61ca747fb07: Owned by someone else (user_id: 965fb2e5-0b46-4b7e-914e-49d7b81f2291, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc 6a27e80e-8864-4cd0-b95f-1feae14dd8d4: Owned by someone else (user_id: 965fb2e5-0b46-4b7e-914e-49d7b81f2291, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc 53a5b60a-4302-4788-be79-ceced14005c7: Owned by someone else (user_id: 965fb2e5-0b46-4b7e-914e-49d7b81f2291, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc 85d13744-6c3c-4182-96a6-7eba216421c3: Owned by someone else (user_id: 965fb2e5-0b46-4b7e-914e-49d7b81f2291, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc 267e552c-e475-4329-b91c-0afce37bac17: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+
+📄 Processing recent personal document: 267e552c-e475-4329-b91c-0afce37bac17
+  ⚠️ No transcript found for 267e552c-e475-4329-b91c-0afce37bac17
+  ✅ Doc 267e552c-e475-4329-b91c-0afce37bac17: Using AI-generated content only (length: 1712)
+  📋 Enhanced notes length: 1712
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: Automation Workflow Discussion Kim built workflow to automate meeting notes processing Sends Zoom/Go...
+  ✅ Doc 79e22355-7578-49ce-862c-fc9b63ae6d4b: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+
+📄 Processing recent personal document: 79e22355-7578-49ce-862c-fc9b63ae6d4b
+  🔍 Transcript type: <class 'list'>
+  ✅ Transcript length: 29800
+  ✅ Doc 79e22355-7578-49ce-862c-fc9b63ae6d4b: Using AI-generated content only (length: 2101)
+  📋 Enhanced notes length: 2101
+  📋 Transcript length: 29800
+  ✅ Enhanced notes preview: Launch Status & Customer Adoption Offers feature launched Monday to all customers Only app-based cal...
+  ❌ Doc b8f4f22d-4d93-466a-8caa-f0f535204778: Owned by someone else (user_id: 965fb2e5-0b46-4b7e-914e-49d7b81f2291, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc 3658b1c5-4733-4a97-b9fa-e38adba217da: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc 4012f86d-3edc-4502-969b-d8a19c9ff1a7: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+
+📄 Processing recent personal document: 4012f86d-3edc-4502-969b-d8a19c9ff1a7
+  🔍 Transcript type: <class 'list'>
+  ✅ Transcript length: 22465
+  ✅ Doc 4012f86d-3edc-4502-969b-d8a19c9ff1a7: Found manual notes_markdown (length: 112)
+  ✅ Doc 4012f86d-3edc-4502-969b-d8a19c9ff1a7: Combined manual notes + AI content (total length: 1942)
+  📋 Enhanced notes length: 1942
+  📋 Transcript length: 22465
+  ✅ Enhanced notes preview: https://docs.intelligems.io/integrations/google-analytics-4-integration
+
+All onboarding calls are pr...
+  ✅ Doc 790788d1-23db-412e-afaf-624a5010a3c0: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+
+📄 Processing recent personal document: 790788d1-23db-412e-afaf-624a5010a3c0
+  🔍 Transcript type: <class 'list'>
+  ✅ Transcript length: 14798
+  ✅ Doc 790788d1-23db-412e-afaf-624a5010a3c0: Found manual notes_markdown (length: 265)
+  ✅ Doc 790788d1-23db-412e-afaf-624a5010a3c0: Combined manual notes + AI content (total length: 2463)
+  📋 Enhanced notes length: 2463
+  📋 Transcript length: 14798
+  ✅ Enhanced notes preview: - Targeting rules don’t carry over from an experience to the test. And linking them overcomplicated ...
+  ✅ Doc 4aad4a5c-4d49-4376-a0a3-6b3b75a12ae5: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+
+📄 Processing recent personal document: 4aad4a5c-4d49-4376-a0a3-6b3b75a12ae5
+  🔍 Transcript type: <class 'list'>
+  ✅ Transcript length: 17511
+  ✅ Doc 4aad4a5c-4d49-4376-a0a3-6b3b75a12ae5: Using AI-generated content only (length: 1843)
+  📋 Enhanced notes length: 1843
+  📋 Transcript length: 17511
+  ✅ Enhanced notes preview: Team Standup Format Rotating presenters on various topics (work-related and personal) New hire Tuesd...
+  ❌ Doc c4193be5-a0e3-4e76-a386-6838300fa082: Owned by someone else (user_id: 965fb2e5-0b46-4b7e-914e-49d7b81f2291, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ❌ Doc e5493123-cef9-4880-b9a6-004d0dfc5a63: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc c4666a8d-8bd6-401c-9ece-0ab0e4f157f7: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+
+📄 Processing recent personal document: c4666a8d-8bd6-401c-9ece-0ab0e4f157f7
+  🔍 Transcript type: <class 'list'>
+  ✅ Transcript length: 45537
+  ✅ Doc c4666a8d-8bd6-401c-9ece-0ab0e4f157f7: Found manual notes_markdown (length: 1083)
+  ✅ Doc c4666a8d-8bd6-401c-9ece-0ab0e4f157f7: Combined manual notes + AI content (total length: 3860)
+  📋 Enhanced notes length: 3860
+  📋 Transcript length: 45537
+  ✅ Enhanced notes preview: Questions:
+
+- What does Helen mean by “create variants” here?
+
+UX/Product decisions:
+
+- Trust badge
+...
+  ✅ Doc 14be151a-856f-4ca8-aa78-e7d6e52c2380: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+
+📄 Processing recent personal document: 14be151a-856f-4ca8-aa78-e7d6e52c2380
+  🔍 Transcript type: <class 'list'>
+  ✅ Transcript length: 24551
+  ✅ Doc 14be151a-856f-4ca8-aa78-e7d6e52c2380: Found manual notes_markdown (length: 1931)
+  ✅ Doc 14be151a-856f-4ca8-aa78-e7d6e52c2380: Combined manual notes + AI content (total length: 4704)
+  📋 Enhanced notes length: 4704
+  📋 Transcript length: 24551
+  ✅ Enhanced notes preview: - Always owned data and analytics, and has become a much bigger part of my job.
+  - Product and engi...
+  ✅ Doc 1544ae10-1a8e-4a47-8be1-688236d2d646: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+
+📄 Processing recent personal document: 1544ae10-1a8e-4a47-8be1-688236d2d646
+  🔍 Transcript type: <class 'list'>
+  ✅ Transcript length: 15699
+  ✅ Doc 1544ae10-1a8e-4a47-8be1-688236d2d646: Using AI-generated content only (length: 1853)
+  📋 Enhanced notes length: 1853
+  📋 Transcript length: 15699
+  ✅ Enhanced notes preview: Kim’s Impostor Syndrome Presentation Background: Kim had nightmare about terrible standup presentati...
+  ❌ Doc c3064b97-d83f-43a3-80ce-ac126145bf06: Owned by someone else (user_id: a3f0c4e5-6b98-4b1a-ab5e-701c12a57229, my_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+  ✅ Doc d4c6b630-0e51-4b30-bd0d-557120f96231: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+
+📄 Processing recent personal document: d4c6b630-0e51-4b30-bd0d-557120f96231
+  🔍 Transcript type: <class 'list'>
+  ✅ Transcript length: 27316
+  ✅ Doc d4c6b630-0e51-4b30-bd0d-557120f96231: Found manual notes_markdown (length: 563)
+  ✅ Doc d4c6b630-0e51-4b30-bd0d-557120f96231: Using manual notes only (length: 563)
+  📋 Enhanced notes length: 563
+  📋 Transcript length: 27316
+  ✅ Enhanced notes preview: - What Natalie asked about
+  - What’s your threshold for stat sig?
+  - I’m making such a big change ...
+  ✅ Doc 70202769-a400-4815-96bc-f23e6a81cd46: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+
+📄 Processing recent personal document: 70202769-a400-4815-96bc-f23e6a81cd46
+  🔍 Transcript type: <class 'list'>
+  ✅ Transcript length: 50148
+  ⚠️ Doc 70202769-a400-4815-96bc-f23e6a81cd46: No enhanced notes or AI content found
+  📋 Enhanced notes length: 0
+  📋 Transcript length: 50148
+  ⚠️ Enhanced notes is empty for 70202769-a400-4815-96bc-f23e6a81cd46
+  ✅ Doc 90ce2171-8a1e-44ef-bdeb-22953ab8acaf: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+
+📄 Processing recent personal document: 90ce2171-8a1e-44ef-bdeb-22953ab8acaf
+  🔍 Transcript type: <class 'list'>
+  ✅ Transcript length: 14992
+  ✅ Doc 90ce2171-8a1e-44ef-bdeb-22953ab8acaf: Using AI-generated content only (length: 1811)
+  📋 Enhanced notes length: 1811
+  📋 Transcript length: 14992
+  ✅ Enhanced notes preview: Headless Integration Tracking New headless label created to track these tickets in cycles Effort var...
+  ✅ Doc 45fb37d5-f2fe-4326-bbb8-22305cddcfe7: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+
+📄 Processing recent personal document: 45fb37d5-f2fe-4326-bbb8-22305cddcfe7
+  🔍 Transcript type: <class 'list'>
+  ✅ Transcript length: 17294
+  ✅ Doc 45fb37d5-f2fe-4326-bbb8-22305cddcfe7: Using AI-generated content only (length: 1927)
+  📋 Enhanced notes length: 1927
+  📋 Transcript length: 17294
+  ✅ Enhanced notes preview: Baseball Analytics Presentation by Michael Personal baseball journey through card collecting and sta...
+  ✅ Doc ca3b0167-2818-46e3-bde4-6e70aa6eeb6e: Owned by me (user_id: 19b41bfc-e113-44f4-8541-49a63b0aadcf)
+
+📄 Processing recent personal document: ca3b0167-2818-46e3-bde4-6e70aa6eeb6e
+  🔍 Transcript type: <class 'list'>
+  ✅ Transcript length: 0
+  ✅ Doc ca3b0167-2818-46e3-bde4-6e70aa6eeb6e: Found manual notes_markdown (length: 593)
+  ✅ Doc ca3b0167-2818-46e3-bde4-6e70aa6eeb6e: Using manual notes only (length: 593)
+  📋 Enhanced notes length: 593
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: - Am I focusing my energy in the correct places?
+  - Checkout blocks
+    - POC and 2-3 milestones af...
+
+✅ Filtered out 46 non-personal documents
+✅ Returning 16 personal documents from last 7 days
+Final check - ca3b0167-2818-46e3-bde4-6e70aa6eeb6e: enhanced_notes length = 593
+Final check - 45fb37d5-f2fe-4326-bbb8-22305cddcfe7: enhanced_notes length = 1927
+Final check - 90ce2171-8a1e-44ef-bdeb-22953ab8acaf: enhanced_notes length = 1811
+Final check - 70202769-a400-4815-96bc-f23e6a81cd46: enhanced_notes length = 0
+Final check - d4c6b630-0e51-4b30-bd0d-557120f96231: enhanced_notes length = 563
+Final check - 1544ae10-1a8e-4a47-8be1-688236d2d646: enhanced_notes length = 1853
+Final check - 14be151a-856f-4ca8-aa78-e7d6e52c2380: enhanced_notes length = 4704
+Final check - c4666a8d-8bd6-401c-9ece-0ab0e4f157f7: enhanced_notes length = 3860
+Final check - 4aad4a5c-4d49-4376-a0a3-6b3b75a12ae5: enhanced_notes length = 1843
+Final check - 790788d1-23db-412e-afaf-624a5010a3c0: enhanced_notes length = 2463
+Final check - 4012f86d-3edc-4502-969b-d8a19c9ff1a7: enhanced_notes length = 1942
+Final check - 79e22355-7578-49ce-862c-fc9b63ae6d4b: enhanced_notes length = 2101
+Final check - 267e552c-e475-4329-b91c-0afce37bac17: enhanced_notes length = 1712
+Final check - d1fabb37-5212-4cbf-a581-a0da9ebc8cb0: enhanced_notes length = 1907
+Final check - 491eccd8-1d89-4473-97bf-fec47823fbdb: enhanced_notes length = 3205
+Final check - d00854b0-94be-4105-9203-99f6e9cfbc88: enhanced_notes length = 1941
+🔍 Processing 16 documents (no filtering)
+INFO:     44.223.74.40:0 - "GET /zapier-simple HTTP/1.1" 200 OK
