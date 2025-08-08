@@ -989,3 +989,426 @@ Final check - 217e9636-ea9b-4bf9-b7cf-65ccfe7780e4: enhanced_notes length = 2010
 Final check - 4f7244ef-d5f0-42de-a6ca-a7902ed12863: enhanced_notes length = 4465
 🔍 Processing 21 documents (no filtering)
 INFO:     18.212.128.106:0 - "GET /zapier-simple HTTP/1.1" 200 OK
+🚀 Starting Granola MCP Server...
+📡 Health check available at: http://127.0.0.1:11434/health
+🧪 Test endpoint available at: http://127.0.0.1:11434/test
+🎯 Simple Zapier endpoint available at: http://127.0.0.1:11434/zapier-simple
+INFO:     127.0.0.1:51038 - "GET /health HTTP/1.1" 200 OK
+🔍 Total documents in cache: 88
+🔍 Total transcripts in cache: 7
+🔍 Total document panels in cache: 86
+
+📄 Processing recent document: 4f7244ef-d5f0-42de-a6ca-a7902ed12863
+  ⚠️ No transcript found for 4f7244ef-d5f0-42de-a6ca-a7902ed12863
+  ✅ Doc 4f7244ef-d5f0-42de-a6ca-a7902ed12863: Found manual notes_markdown (length: 1659)
+  ✅ Doc 4f7244ef-d5f0-42de-a6ca-a7902ed12863: Combined manual notes + AI content (total length: 4465)
+  📋 Enhanced notes length: 4465
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: - Biggest problem operationally/shipping solutions to customer problems
+- Biggest customer problem o...
+
+📄 Processing recent document: 217e9636-ea9b-4bf9-b7cf-65ccfe7780e4
+  ⚠️ No transcript found for 217e9636-ea9b-4bf9-b7cf-65ccfe7780e4
+  ✅ Doc 217e9636-ea9b-4bf9-b7cf-65ccfe7780e4: Found manual notes_markdown (length: 2010)
+  ✅ Doc 217e9636-ea9b-4bf9-b7cf-65ccfe7780e4: Using manual notes only (length: 2010)
+  📋 Enhanced notes length: 2010
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: - Biggest problem operationally/shipping solutions to customer problems
+- Biggest customer problem o...
+
+📄 Processing recent document: a0320c25-3ed6-40b0-a13f-e5d8a549068c
+  ⚠️ No transcript found for a0320c25-3ed6-40b0-a13f-e5d8a549068c
+  ✅ Doc a0320c25-3ed6-40b0-a13f-e5d8a549068c: Found manual notes_markdown (length: 1627)
+  ✅ Doc a0320c25-3ed6-40b0-a13f-e5d8a549068c: Combined manual notes + AI content (total length: 4432)
+  📋 Enhanced notes length: 4432
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: - Biggest problem operationally/shipping solutions to customer problems
+- Biggest customer problem o...
+
+📄 Processing recent document: f688f536-eeb8-4a9c-b901-3b53c3d7de3c
+  ⚠️ No transcript found for f688f536-eeb8-4a9c-b901-3b53c3d7de3c
+  ✅ Doc f688f536-eeb8-4a9c-b901-3b53c3d7de3c: Found manual notes_markdown (length: 17)
+  ✅ Doc f688f536-eeb8-4a9c-b901-3b53c3d7de3c: Combined manual notes + AI content (total length: 2463)
+  📋 Enhanced notes length: 2463
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: ?&ig-preview=true
+
+---
+
+## AI-Generated Summary
+Support Shadowing with Jamie (3 of 3) Key Support Pr...
+
+📄 Processing recent document: ed713407-ee8d-40c7-add1-1201b9b555b0
+  ⚠️ No transcript found for ed713407-ee8d-40c7-add1-1201b9b555b0
+  ✅ Doc ed713407-ee8d-40c7-add1-1201b9b555b0: Found manual notes_markdown (length: 829)
+  ✅ Doc ed713407-ee8d-40c7-add1-1201b9b555b0: Combined manual notes + AI content (total length: 3108)
+  📋 Enhanced notes length: 3108
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: - [Adam’s opinion] Enable testing from day 1 is important
+- Weird to have offers work one way, and t...
+
+📄 Processing recent document: 18f89118-9e58-46f8-b469-9dcdc56b49ab
+  ⚠️ No transcript found for 18f89118-9e58-46f8-b469-9dcdc56b49ab
+  ✅ Doc 18f89118-9e58-46f8-b469-9dcdc56b49ab: Found manual notes_markdown (length: 1690)
+  ✅ Doc 18f89118-9e58-46f8-b469-9dcdc56b49ab: Combined manual notes + AI content (total length: 4274)
+  📋 Enhanced notes length: 4274
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: - Partnerships and GTM ops
+  - Ethan and Lisa → Parntnerships
+  - Tooling, automations, workflows → ...
+
+📄 Processing recent document: 773b93ab-c295-42ce-be95-75d9b3f5387c
+  ⚠️ No transcript found for 773b93ab-c295-42ce-be95-75d9b3f5387c
+  ✅ Doc 773b93ab-c295-42ce-be95-75d9b3f5387c: Found manual notes_markdown (length: 2544)
+  ✅ Doc 773b93ab-c295-42ce-be95-75d9b3f5387c: Combined manual notes + AI content (total length: 5241)
+  📋 Enhanced notes length: 5241
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: - Product and Success collaboration
+  - Someone on success bridge product and success → Make sure wh...
+
+📄 Processing recent document: 68743b4a-803e-41f0-b696-52cd08104437
+  ⚠️ No transcript found for 68743b4a-803e-41f0-b696-52cd08104437
+  ✅ Doc 68743b4a-803e-41f0-b696-52cd08104437: Found manual notes_markdown (length: 281)
+  ✅ Doc 68743b4a-803e-41f0-b696-52cd08104437: Combined manual notes + AI content (total length: 3193)
+  📋 Enhanced notes length: 3193
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: - How close can we bring the Experiments and Experiences flows?
+- Cross-org communication
+  - Suppor...
+
+📄 Processing recent document: d00854b0-94be-4105-9203-99f6e9cfbc88
+  ⚠️ No transcript found for d00854b0-94be-4105-9203-99f6e9cfbc88
+  ✅ Doc d00854b0-94be-4105-9203-99f6e9cfbc88: Using AI-generated content only (length: 1941)
+  📋 Enhanced notes length: 1941
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: Current checkout project updates Angela needs to sync on competitor analysis and next steps Kate put...
+
+📄 Processing recent document: 491eccd8-1d89-4473-97bf-fec47823fbdb
+  ⚠️ No transcript found for 491eccd8-1d89-4473-97bf-fec47823fbdb
+  ✅ Doc 491eccd8-1d89-4473-97bf-fec47823fbdb: Found manual notes_markdown (length: 720)
+  ✅ Doc 491eccd8-1d89-4473-97bf-fec47823fbdb: Combined manual notes + AI content (total length: 3205)
+  📋 Enhanced notes length: 3205
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: - Checkout blocks differentiation
+  - Waited on Shopify for too long on this one because they said t...
+
+📄 Processing recent document: d1fabb37-5212-4cbf-a581-a0da9ebc8cb0
+  ⚠️ No transcript found for d1fabb37-5212-4cbf-a581-a0da9ebc8cb0
+  ✅ Doc d1fabb37-5212-4cbf-a581-a0da9ebc8cb0: Using AI-generated content only (length: 1907)
+  📋 Enhanced notes length: 1907
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: Free shipping offer default issue Partners team identified major problem with current default settin...
+
+📄 Processing recent document: e9d229ea-9c2b-404c-b0ed-d61ca747fb07
+  ⚠️ No transcript found for e9d229ea-9c2b-404c-b0ed-d61ca747fb07
+  ✅ Doc e9d229ea-9c2b-404c-b0ed-d61ca747fb07: Using AI-generated content only (length: 1488)
+  📋 Enhanced notes length: 1488
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: Current Stack Setup Hydrogen with RemX (basic, regular stack) Not yet on React Router 7 version from...
+
+📄 Processing recent document: 267e552c-e475-4329-b91c-0afce37bac17
+  ⚠️ No transcript found for 267e552c-e475-4329-b91c-0afce37bac17
+  ✅ Doc 267e552c-e475-4329-b91c-0afce37bac17: Using AI-generated content only (length: 1712)
+  📋 Enhanced notes length: 1712
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: Automation Workflow Discussion Kim built workflow to automate meeting notes processing Sends Zoom/Go...
+
+📄 Processing recent document: 79e22355-7578-49ce-862c-fc9b63ae6d4b
+  🔍 Transcript type: <class 'list'>
+  ✅ Transcript length: 29800
+  ✅ Doc 79e22355-7578-49ce-862c-fc9b63ae6d4b: Using AI-generated content only (length: 2101)
+  📋 Enhanced notes length: 2101
+  📋 Transcript length: 29800
+  ✅ Enhanced notes preview: Launch Status & Customer Adoption Offers feature launched Monday to all customers Only app-based cal...
+
+📄 Processing recent document: b8f4f22d-4d93-466a-8caa-f0f535204778
+  ⚠️ No transcript found for b8f4f22d-4d93-466a-8caa-f0f535204778
+  ✅ Doc b8f4f22d-4d93-466a-8caa-f0f535204778: Using AI-generated content only (length: 1735)
+  📋 Enhanced notes length: 1735
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: Technical Integration Issues Cart hook from Intelligems not loading necessary attributes for ~30% of...
+
+📄 Processing recent document: 3658b1c5-4733-4a97-b9fa-e38adba217da
+  ⚠️ No transcript found for 3658b1c5-4733-4a97-b9fa-e38adba217da
+  ✅ Doc 3658b1c5-4733-4a97-b9fa-e38adba217da: Using AI-generated content only (length: 3060)
+  📋 Enhanced notes length: 3060
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: How They Heard About Us Intelligems was recommended to Alie over the weekend by a friend They were i...
+
+📄 Processing recent document: 4012f86d-3edc-4502-969b-d8a19c9ff1a7
+  🔍 Transcript type: <class 'list'>
+  ✅ Transcript length: 22465
+  ✅ Doc 4012f86d-3edc-4502-969b-d8a19c9ff1a7: Found manual notes_markdown (length: 112)
+  ✅ Doc 4012f86d-3edc-4502-969b-d8a19c9ff1a7: Combined manual notes + AI content (total length: 1942)
+  📋 Enhanced notes length: 1942
+  📋 Transcript length: 22465
+  ✅ Enhanced notes preview: https://docs.intelligems.io/integrations/google-analytics-4-integration
+
+All onboarding calls are pr...
+
+📄 Processing recent document: 790788d1-23db-412e-afaf-624a5010a3c0
+  🔍 Transcript type: <class 'list'>
+  ✅ Transcript length: 14798
+  ✅ Doc 790788d1-23db-412e-afaf-624a5010a3c0: Found manual notes_markdown (length: 265)
+  ✅ Doc 790788d1-23db-412e-afaf-624a5010a3c0: Combined manual notes + AI content (total length: 2463)
+  📋 Enhanced notes length: 2463
+  📋 Transcript length: 14798
+  ✅ Enhanced notes preview: - Targeting rules don’t carry over from an experience to the test. And linking them overcomplicated ...
+
+📄 Processing recent document: 4aad4a5c-4d49-4376-a0a3-6b3b75a12ae5
+  🔍 Transcript type: <class 'list'>
+  ✅ Transcript length: 17511
+  ✅ Doc 4aad4a5c-4d49-4376-a0a3-6b3b75a12ae5: Using AI-generated content only (length: 1842)
+  📋 Enhanced notes length: 1842
+  📋 Transcript length: 17511
+  ✅ Enhanced notes preview: Team Standup Format Rotating presenters on various topics (work-related and personal) New hire Tuesd...
+
+📄 Processing recent document: c4193be5-a0e3-4e76-a386-6838300fa082
+  ⚠️ No transcript found for c4193be5-a0e3-4e76-a386-6838300fa082
+  ✅ Doc c4193be5-a0e3-4e76-a386-6838300fa082: Using AI-generated content only (length: 2031)
+  📋 Enhanced notes length: 2031
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: Integration Setup Progress Mez has completed most headless setup steps Added Hydrogen provider to co...
+
+📄 Processing recent document: e5493123-cef9-4880-b9a6-004d0dfc5a63
+  ⚠️ No transcript found for e5493123-cef9-4880-b9a6-004d0dfc5a63
+  ✅ Doc e5493123-cef9-4880-b9a6-004d0dfc5a63: Using AI-generated content only (length: 1885)
+  📋 Enhanced notes length: 1885
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: Company Background & Current Situation Maev: Premium frozen subscription pet food company (6 years o...
+
+✅ Returning 21 recent documents
+Final check - e5493123-cef9-4880-b9a6-004d0dfc5a63: enhanced_notes length = 1885
+Final check - c4193be5-a0e3-4e76-a386-6838300fa082: enhanced_notes length = 2031
+Final check - 4aad4a5c-4d49-4376-a0a3-6b3b75a12ae5: enhanced_notes length = 1842
+Final check - 790788d1-23db-412e-afaf-624a5010a3c0: enhanced_notes length = 2463
+Final check - 4012f86d-3edc-4502-969b-d8a19c9ff1a7: enhanced_notes length = 1942
+Final check - 3658b1c5-4733-4a97-b9fa-e38adba217da: enhanced_notes length = 3060
+Final check - b8f4f22d-4d93-466a-8caa-f0f535204778: enhanced_notes length = 1735
+Final check - 79e22355-7578-49ce-862c-fc9b63ae6d4b: enhanced_notes length = 2101
+Final check - 267e552c-e475-4329-b91c-0afce37bac17: enhanced_notes length = 1712
+Final check - d1fabb37-5212-4cbf-a581-a0da9ebc8cb0: enhanced_notes length = 1907
+Final check - 491eccd8-1d89-4473-97bf-fec47823fbdb: enhanced_notes length = 3205
+Final check - d00854b0-94be-4105-9203-99f6e9cfbc88: enhanced_notes length = 1941
+Final check - 68743b4a-803e-41f0-b696-52cd08104437: enhanced_notes length = 3193
+Final check - 773b93ab-c295-42ce-be95-75d9b3f5387c: enhanced_notes length = 5241
+Final check - e9d229ea-9c2b-404c-b0ed-d61ca747fb07: enhanced_notes length = 1488
+Final check - 18f89118-9e58-46f8-b469-9dcdc56b49ab: enhanced_notes length = 4274
+Final check - ed713407-ee8d-40c7-add1-1201b9b555b0: enhanced_notes length = 3108
+Final check - f688f536-eeb8-4a9c-b901-3b53c3d7de3c: enhanced_notes length = 2463
+Final check - a0320c25-3ed6-40b0-a13f-e5d8a549068c: enhanced_notes length = 4432
+Final check - 217e9636-ea9b-4bf9-b7cf-65ccfe7780e4: enhanced_notes length = 2010
+Final check - 4f7244ef-d5f0-42de-a6ca-a7902ed12863: enhanced_notes length = 4465
+🔍 Processing 21 documents (no filtering)
+INFO:     3.92.52.9:0 - "GET /zapier-simple HTTP/1.1" 200 OK
+🚀 Starting Granola MCP Server...
+📡 Health check available at: http://127.0.0.1:11434/health
+🧪 Test endpoint available at: http://127.0.0.1:11434/test
+🎯 Simple Zapier endpoint available at: http://127.0.0.1:11434/zapier-simple
+🔍 Total documents in cache: 88
+🔍 Total transcripts in cache: 7
+🔍 Total document panels in cache: 86
+
+📄 Processing recent document: 4f7244ef-d5f0-42de-a6ca-a7902ed12863
+  ⚠️ No transcript found for 4f7244ef-d5f0-42de-a6ca-a7902ed12863
+  ✅ Doc 4f7244ef-d5f0-42de-a6ca-a7902ed12863: Found manual notes_markdown (length: 1659)
+  ✅ Doc 4f7244ef-d5f0-42de-a6ca-a7902ed12863: Combined manual notes + AI content (total length: 4465)
+  📋 Enhanced notes length: 4465
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: - Biggest problem operationally/shipping solutions to customer problems
+- Biggest customer problem o...
+
+📄 Processing recent document: 217e9636-ea9b-4bf9-b7cf-65ccfe7780e4
+  ⚠️ No transcript found for 217e9636-ea9b-4bf9-b7cf-65ccfe7780e4
+  ✅ Doc 217e9636-ea9b-4bf9-b7cf-65ccfe7780e4: Found manual notes_markdown (length: 2010)
+  ✅ Doc 217e9636-ea9b-4bf9-b7cf-65ccfe7780e4: Using manual notes only (length: 2010)
+  📋 Enhanced notes length: 2010
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: - Biggest problem operationally/shipping solutions to customer problems
+- Biggest customer problem o...
+
+📄 Processing recent document: a0320c25-3ed6-40b0-a13f-e5d8a549068c
+  ⚠️ No transcript found for a0320c25-3ed6-40b0-a13f-e5d8a549068c
+  ✅ Doc a0320c25-3ed6-40b0-a13f-e5d8a549068c: Found manual notes_markdown (length: 1627)
+  ✅ Doc a0320c25-3ed6-40b0-a13f-e5d8a549068c: Combined manual notes + AI content (total length: 4432)
+  📋 Enhanced notes length: 4432
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: - Biggest problem operationally/shipping solutions to customer problems
+- Biggest customer problem o...
+
+📄 Processing recent document: f688f536-eeb8-4a9c-b901-3b53c3d7de3c
+  ⚠️ No transcript found for f688f536-eeb8-4a9c-b901-3b53c3d7de3c
+  ✅ Doc f688f536-eeb8-4a9c-b901-3b53c3d7de3c: Found manual notes_markdown (length: 17)
+  ✅ Doc f688f536-eeb8-4a9c-b901-3b53c3d7de3c: Combined manual notes + AI content (total length: 2463)
+  📋 Enhanced notes length: 2463
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: ?&ig-preview=true
+
+---
+
+## AI-Generated Summary
+Support Shadowing with Jamie (3 of 3) Key Support Pr...
+
+📄 Processing recent document: ed713407-ee8d-40c7-add1-1201b9b555b0
+  ⚠️ No transcript found for ed713407-ee8d-40c7-add1-1201b9b555b0
+  ✅ Doc ed713407-ee8d-40c7-add1-1201b9b555b0: Found manual notes_markdown (length: 829)
+  ✅ Doc ed713407-ee8d-40c7-add1-1201b9b555b0: Combined manual notes + AI content (total length: 3108)
+  📋 Enhanced notes length: 3108
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: - [Adam’s opinion] Enable testing from day 1 is important
+- Weird to have offers work one way, and t...
+
+📄 Processing recent document: 18f89118-9e58-46f8-b469-9dcdc56b49ab
+  ⚠️ No transcript found for 18f89118-9e58-46f8-b469-9dcdc56b49ab
+  ✅ Doc 18f89118-9e58-46f8-b469-9dcdc56b49ab: Found manual notes_markdown (length: 1690)
+  ✅ Doc 18f89118-9e58-46f8-b469-9dcdc56b49ab: Combined manual notes + AI content (total length: 4274)
+  📋 Enhanced notes length: 4274
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: - Partnerships and GTM ops
+  - Ethan and Lisa → Parntnerships
+  - Tooling, automations, workflows → ...
+
+📄 Processing recent document: 773b93ab-c295-42ce-be95-75d9b3f5387c
+  ⚠️ No transcript found for 773b93ab-c295-42ce-be95-75d9b3f5387c
+  ✅ Doc 773b93ab-c295-42ce-be95-75d9b3f5387c: Found manual notes_markdown (length: 2544)
+  ✅ Doc 773b93ab-c295-42ce-be95-75d9b3f5387c: Combined manual notes + AI content (total length: 5241)
+  📋 Enhanced notes length: 5241
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: - Product and Success collaboration
+  - Someone on success bridge product and success → Make sure wh...
+
+📄 Processing recent document: 68743b4a-803e-41f0-b696-52cd08104437
+  ⚠️ No transcript found for 68743b4a-803e-41f0-b696-52cd08104437
+  ✅ Doc 68743b4a-803e-41f0-b696-52cd08104437: Found manual notes_markdown (length: 281)
+  ✅ Doc 68743b4a-803e-41f0-b696-52cd08104437: Combined manual notes + AI content (total length: 3193)
+  📋 Enhanced notes length: 3193
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: - How close can we bring the Experiments and Experiences flows?
+- Cross-org communication
+  - Suppor...
+
+📄 Processing recent document: d00854b0-94be-4105-9203-99f6e9cfbc88
+  ⚠️ No transcript found for d00854b0-94be-4105-9203-99f6e9cfbc88
+  ✅ Doc d00854b0-94be-4105-9203-99f6e9cfbc88: Using AI-generated content only (length: 1941)
+  📋 Enhanced notes length: 1941
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: Current checkout project updates Angela needs to sync on competitor analysis and next steps Kate put...
+
+📄 Processing recent document: 491eccd8-1d89-4473-97bf-fec47823fbdb
+  ⚠️ No transcript found for 491eccd8-1d89-4473-97bf-fec47823fbdb
+  ✅ Doc 491eccd8-1d89-4473-97bf-fec47823fbdb: Found manual notes_markdown (length: 720)
+  ✅ Doc 491eccd8-1d89-4473-97bf-fec47823fbdb: Combined manual notes + AI content (total length: 3205)
+  📋 Enhanced notes length: 3205
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: - Checkout blocks differentiation
+  - Waited on Shopify for too long on this one because they said t...
+
+📄 Processing recent document: d1fabb37-5212-4cbf-a581-a0da9ebc8cb0
+  ⚠️ No transcript found for d1fabb37-5212-4cbf-a581-a0da9ebc8cb0
+  ✅ Doc d1fabb37-5212-4cbf-a581-a0da9ebc8cb0: Using AI-generated content only (length: 1907)
+  📋 Enhanced notes length: 1907
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: Free shipping offer default issue Partners team identified major problem with current default settin...
+
+📄 Processing recent document: e9d229ea-9c2b-404c-b0ed-d61ca747fb07
+  ⚠️ No transcript found for e9d229ea-9c2b-404c-b0ed-d61ca747fb07
+  ✅ Doc e9d229ea-9c2b-404c-b0ed-d61ca747fb07: Using AI-generated content only (length: 1488)
+  📋 Enhanced notes length: 1488
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: Current Stack Setup Hydrogen with RemX (basic, regular stack) Not yet on React Router 7 version from...
+
+📄 Processing recent document: 267e552c-e475-4329-b91c-0afce37bac17
+  ⚠️ No transcript found for 267e552c-e475-4329-b91c-0afce37bac17
+  ✅ Doc 267e552c-e475-4329-b91c-0afce37bac17: Using AI-generated content only (length: 1712)
+  📋 Enhanced notes length: 1712
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: Automation Workflow Discussion Kim built workflow to automate meeting notes processing Sends Zoom/Go...
+
+📄 Processing recent document: 79e22355-7578-49ce-862c-fc9b63ae6d4b
+  🔍 Transcript type: <class 'list'>
+  ✅ Transcript length: 29800
+  ✅ Doc 79e22355-7578-49ce-862c-fc9b63ae6d4b: Using AI-generated content only (length: 2101)
+  📋 Enhanced notes length: 2101
+  📋 Transcript length: 29800
+  ✅ Enhanced notes preview: Launch Status & Customer Adoption Offers feature launched Monday to all customers Only app-based cal...
+
+📄 Processing recent document: b8f4f22d-4d93-466a-8caa-f0f535204778
+  ⚠️ No transcript found for b8f4f22d-4d93-466a-8caa-f0f535204778
+  ✅ Doc b8f4f22d-4d93-466a-8caa-f0f535204778: Using AI-generated content only (length: 1735)
+  📋 Enhanced notes length: 1735
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: Technical Integration Issues Cart hook from Intelligems not loading necessary attributes for ~30% of...
+
+📄 Processing recent document: 3658b1c5-4733-4a97-b9fa-e38adba217da
+  ⚠️ No transcript found for 3658b1c5-4733-4a97-b9fa-e38adba217da
+  ✅ Doc 3658b1c5-4733-4a97-b9fa-e38adba217da: Using AI-generated content only (length: 3060)
+  📋 Enhanced notes length: 3060
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: How They Heard About Us Intelligems was recommended to Alie over the weekend by a friend They were i...
+
+📄 Processing recent document: 4012f86d-3edc-4502-969b-d8a19c9ff1a7
+  🔍 Transcript type: <class 'list'>
+  ✅ Transcript length: 22465
+  ✅ Doc 4012f86d-3edc-4502-969b-d8a19c9ff1a7: Found manual notes_markdown (length: 112)
+  ✅ Doc 4012f86d-3edc-4502-969b-d8a19c9ff1a7: Combined manual notes + AI content (total length: 1942)
+  📋 Enhanced notes length: 1942
+  📋 Transcript length: 22465
+  ✅ Enhanced notes preview: https://docs.intelligems.io/integrations/google-analytics-4-integration
+
+All onboarding calls are pr...
+
+📄 Processing recent document: 790788d1-23db-412e-afaf-624a5010a3c0
+  🔍 Transcript type: <class 'list'>
+  ✅ Transcript length: 14798
+  ✅ Doc 790788d1-23db-412e-afaf-624a5010a3c0: Found manual notes_markdown (length: 265)
+  ✅ Doc 790788d1-23db-412e-afaf-624a5010a3c0: Combined manual notes + AI content (total length: 2463)
+  📋 Enhanced notes length: 2463
+  📋 Transcript length: 14798
+  ✅ Enhanced notes preview: - Targeting rules don’t carry over from an experience to the test. And linking them overcomplicated ...
+
+📄 Processing recent document: 4aad4a5c-4d49-4376-a0a3-6b3b75a12ae5
+  🔍 Transcript type: <class 'list'>
+  ✅ Transcript length: 17511
+  ✅ Doc 4aad4a5c-4d49-4376-a0a3-6b3b75a12ae5: Using AI-generated content only (length: 1842)
+  📋 Enhanced notes length: 1842
+  📋 Transcript length: 17511
+  ✅ Enhanced notes preview: Team Standup Format Rotating presenters on various topics (work-related and personal) New hire Tuesd...
+
+📄 Processing recent document: c4193be5-a0e3-4e76-a386-6838300fa082
+  ⚠️ No transcript found for c4193be5-a0e3-4e76-a386-6838300fa082
+  ✅ Doc c4193be5-a0e3-4e76-a386-6838300fa082: Using AI-generated content only (length: 2031)
+  📋 Enhanced notes length: 2031
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: Integration Setup Progress Mez has completed most headless setup steps Added Hydrogen provider to co...
+
+📄 Processing recent document: e5493123-cef9-4880-b9a6-004d0dfc5a63
+  ⚠️ No transcript found for e5493123-cef9-4880-b9a6-004d0dfc5a63
+  ✅ Doc e5493123-cef9-4880-b9a6-004d0dfc5a63: Using AI-generated content only (length: 1885)
+  📋 Enhanced notes length: 1885
+  📋 Transcript length: 0
+  ✅ Enhanced notes preview: Company Background & Current Situation Maev: Premium frozen subscription pet food company (6 years o...
+
+✅ Returning 21 recent documents
+Final check - e5493123-cef9-4880-b9a6-004d0dfc5a63: enhanced_notes length = 1885
+Final check - c4193be5-a0e3-4e76-a386-6838300fa082: enhanced_notes length = 2031
+Final check - 4aad4a5c-4d49-4376-a0a3-6b3b75a12ae5: enhanced_notes length = 1842
+Final check - 790788d1-23db-412e-afaf-624a5010a3c0: enhanced_notes length = 2463
+Final check - 4012f86d-3edc-4502-969b-d8a19c9ff1a7: enhanced_notes length = 1942
+Final check - 3658b1c5-4733-4a97-b9fa-e38adba217da: enhanced_notes length = 3060
+Final check - b8f4f22d-4d93-466a-8caa-f0f535204778: enhanced_notes length = 1735
+Final check - 79e22355-7578-49ce-862c-fc9b63ae6d4b: enhanced_notes length = 2101
+Final check - 267e552c-e475-4329-b91c-0afce37bac17: enhanced_notes length = 1712
+Final check - d1fabb37-5212-4cbf-a581-a0da9ebc8cb0: enhanced_notes length = 1907
+Final check - 491eccd8-1d89-4473-97bf-fec47823fbdb: enhanced_notes length = 3205
+Final check - d00854b0-94be-4105-9203-99f6e9cfbc88: enhanced_notes length = 1941
+Final check - 68743b4a-803e-41f0-b696-52cd08104437: enhanced_notes length = 3193
+Final check - 773b93ab-c295-42ce-be95-75d9b3f5387c: enhanced_notes length = 5241
+Final check - e9d229ea-9c2b-404c-b0ed-d61ca747fb07: enhanced_notes length = 1488
+Final check - 18f89118-9e58-46f8-b469-9dcdc56b49ab: enhanced_notes length = 4274
+Final check - ed713407-ee8d-40c7-add1-1201b9b555b0: enhanced_notes length = 3108
+Final check - f688f536-eeb8-4a9c-b901-3b53c3d7de3c: enhanced_notes length = 2463
+Final check - a0320c25-3ed6-40b0-a13f-e5d8a549068c: enhanced_notes length = 4432
+Final check - 217e9636-ea9b-4bf9-b7cf-65ccfe7780e4: enhanced_notes length = 2010
+Final check - 4f7244ef-d5f0-42de-a6ca-a7902ed12863: enhanced_notes length = 4465
+🔍 Processing 21 documents (no filtering)
+INFO:     54.80.144.23:0 - "GET /zapier-simple HTTP/1.1" 200 OK
